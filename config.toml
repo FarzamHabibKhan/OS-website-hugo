@@ -1,0 +1,43 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Farzam Habib Khan"
+theme = "hugo-theme-prav"
+
+
+pygmentsCodeFences = "true"
+pygmentsStyle = "perldoc"
+
+# If you want to track using GA or use disqus for comments, uncomment the 
+# following and add the correct values
+#googleanalytics = ""
+#disqusShortname = ""
+
+publishDir = “docs”
+
+
+# The settings below are used throughout the theme.
+# Please update!
+[params]
+  title = "My Site"
+  tagline = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  # author = "Farzam Habib Khan"
+  # authorImgPath = "/img/author.png"
+  authorBlurb = "Hello My name is Farzam"
+
+# If you do not want a social icon, just comment it out
+# Please update the example values!
+[social]
+  email = "mailto:fkhan.bscs19seecs@seecs.edu.pk"
+ # facebook = "https://www.facebook.com/example"
+ # twitter = "http://twitter.com/example"
+ # medium = "https://www.medium.com/@example"
+  github = "https://github.com/FarzamHabibKhan"
+ # linkedin = "http://uk.linkedin.com/in/example"
+
+
+# Set unsafe mode to allow markdownify to work with goldmark
+# This is important. Please do not delete. It is used to re-render markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
